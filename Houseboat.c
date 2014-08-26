@@ -13,8 +13,8 @@ int main()
 		area = (X * X + Y * Y) * PI / 2;
 		int year;
 		year  =	area / DECAY;
-		printf("Property %d: This Property will begin eroding in year. %d\n",(i+1),++year);
+		printf("Property %d: This property will begin eroding in year %d.\n",(i+1),++year);
 	}
-	printf("END OF OUTPUE.\n");
+	printf("END OF OUTPUT.\n");
 	return 0;
 }		
